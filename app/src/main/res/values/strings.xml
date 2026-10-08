@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HiTech Battery Widget</string>
+    <string name="widget_name">HiTech Battery Widget</string>
+    <string name="widget_name_small">HiTech Battery (Small)</string>
+    <string name="widget_name_medium">HiTech Battery (Medium)</string>
+    <string name="widget_name_large">HiTech Battery (Large)</string>
+    <string name="widget_desc_resizable">Customizable live battery widget with Liquid Glass, Water Bubble, and Minimal styles.</string>
+    <string name="widget_desc_small">Compact circular or square battery indicator.</string>
+    <string name="widget_desc_medium">Horizontal battery banner with live percentage and status.</string>
+    <string name="widget_desc_large">Comprehensive battery dashboard with telemetry metrics.</string>
+</resources>

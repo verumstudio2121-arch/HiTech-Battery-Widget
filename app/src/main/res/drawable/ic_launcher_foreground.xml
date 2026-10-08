@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Battery Top Cap / Terminal -->
+    <path
+        android:pathData="M48,25 h12 c1.65,0 3,1.35 3,3 v2 h-18 v-2 c0,-1.65 1.35,-3 3,-3 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Battery Glass Body Outer Shell -->
+    <path
+        android:pathData="M41,30 h26 c4.4,0 8,3.6 8,8 v38 c0,4.4 -3.6,8 -8,8 h-26 c-4.4,0 -8,-3.6 -8,-8 v-38 c0,-4.4 3.6,-8 8,-8 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#7DD3FC"
+        android:fillColor="#220F172A" />
+
+    <!-- Battery Liquid Fill (Lower 75%) -->
+    <path
+        android:pathData="M35.5,48 Q44,45 54,48 T72.5,48 v28 c0,3.3 -2.7,6 -6,6 h-25 c-3.3,0 -6,-2.7 -6,-6 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="45"
+                android:endX="54"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#0284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Liquid Surface Highlight / Crest -->
+    <path
+        android:pathData="M35.5,48 Q44,45 54,48 T72.5,48"
+        android:strokeWidth="1.5"
+        android:strokeColor="#BAE6FD"
+        android:fillColor="#00000000" />
+
+    <!-- Central High-Tech Lightning Bolt -->
+    <path
+        android:pathData="M56,36 L44,53 L52,53 L48,72 L64,49 L56,49 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="36"
+                android:endX="64"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#FACC15" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Specular Reflection Highlight (Left edge) -->
+    <path
+        android:pathData="M37,36 v36"
+        android:strokeWidth="1.5"
+        android:strokeColor="#66FFFFFF"
+        android:strokeLineCap="round" />
+</vector>

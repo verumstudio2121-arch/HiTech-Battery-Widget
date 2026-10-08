@@ -1,0 +1,6 @@
+{
+  "name": "HiTech Battery Widget",
+  "description": "Customizable real-time battery widget with liquid glass, water bubble, and minimal styles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
